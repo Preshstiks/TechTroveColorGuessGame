@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechTrove Color Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Color Guessing Game</h1>
+    <div id="score" data-testid="score">Score: 0</div>
+    <div class="container">
+      <h1 class="instruction" data-testid="gameInstructions">
+        Instruction: Click on a colored box to guess the displayed color!
+      </h1>
+    </div>
+    <div id="color-box" data-testid="colorBox"></div>
+
+    <div class="btn-container" id="buttons" data-testid="colorOption"></div>
+
+    <p id="message" data-testid="gameStatus"></p>
+
+    <button id="new-game" data-testid="newGameButton">New Game</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
