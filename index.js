@@ -42,12 +42,10 @@ function checkGuess(color) {
   if (color === targetColor) {
     score++;
     document.getElementById("message").textContent = "Correct!";
-    alert("Correct!");
     document.getElementById("score").textContent = "Score: " + score;
     setupGame();
   } else {
     document.getElementById("message").textContent = "Wrong!";
-    alert("Wrong!");
   }
 }
 
